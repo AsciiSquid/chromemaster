@@ -13,23 +13,24 @@ function Main() {
     return (
         <div className="Main">
             <header className="Head">
-                Chromemaster
+                <h1>Chromemaster</h1>
+                <nav>
+                    <Link to="/">Home</Link>|
+                    <Link to="/about">About</Link>|
+                    <Link to="/products">Products</Link>
+                </nav>
             </header>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/products">Products</Link>
-            </nav>
-            <hr />
-            <TransitionGroup component={null}>
-                <CSSTransition key={location.key} classNames="fade" timeout={300}>
-                    <Routes location={location}>
-                        <Route path="/" element={ <Home /> }></Route>
-                        <Route path="/about" element={ <About /> }></Route>
-                        <Route path="/products" element={ <Products /> }></Route>
-                    </Routes>
-                </CSSTransition>
-            </TransitionGroup>
+            <div className="RouteContainer">
+                <TransitionGroup component={null}>
+                    <CSSTransition key={location.key} classNames="fade" timeout={300}>
+                        <Routes location={location}>
+                            <Route path="/" element={ <Home /> }></Route>
+                            <Route path="/about" element={ <About /> }></Route>
+                            <Route path="/products" element={ <Products /> }></Route>
+                        </Routes>
+                    </CSSTransition>
+                </TransitionGroup>
+            </div>
         </div>
     )
 }
