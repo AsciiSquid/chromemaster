@@ -31,6 +31,9 @@ function Main() {
                     </CSSTransition>
                 </TransitionGroup>
             </div>
+            <footer>
+                Website by Dawson Wiebe
+            </footer>
         </div>
     )
 }
