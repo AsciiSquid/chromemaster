@@ -13,7 +13,7 @@ function Main() {
     return (
         <div className="Main">
             <header>
-                <h1>Chromemaster</h1>
+                <h1>Chromaster Dental Lab</h1>
                 <nav>
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
@@ -31,6 +31,9 @@ function Main() {
                     </CSSTransition>
                 </TransitionGroup>
             </div>
+            <footer>
+                Website by Dawson Wiebe
+            </footer>
         </div>
     )
 }

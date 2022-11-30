@@ -3,6 +3,7 @@
   --foreground: #111111;
   --text-header: #000000;
   --text-nav: #fafafa;
+  --text-foot: #808080;
 }
 
 .Main {
@@ -49,6 +50,11 @@ nav a {
   color: var(--text-nav);
   min-height: 80vh;
   padding: 2vmin;
+}
+
+footer {
+  text-align: center;
+  color: var(--text-foot);
 }
 
 .fade-enter {
