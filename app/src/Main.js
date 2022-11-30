@@ -12,11 +12,11 @@ function Main() {
 
     return (
         <div className="Main">
-            <header className="Head">
+            <header>
                 <h1>Chromemaster</h1>
                 <nav>
-                    <Link to="/">Home</Link>|
-                    <Link to="/about">About</Link>|
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/products">Products</Link>
                 </nav>
             </header>

@@ -1,8 +1,8 @@
 :root {
-  --background: #0f0f0f;
-  --foreground: #1e1e1e;
-  --text-header: #ffffff;
-  --text-nav: #eeeeee;
+  --background: #080808;
+  --foreground: #111111;
+  --text-header: #000000;
+  --text-nav: #fafafa;
 }
 
 .Main {
@@ -10,16 +10,18 @@
   min-height: 100vh;
 }
 
-.Head {
+header {
   margin: 0px;
   color: var(--text-header);
   background-color: var(--foreground);
-  padding: 1vmin;
+  background-image: url("./image/stock/building.jpg");
+  padding: 2vmin 1vmin 0 2vmin;
   display: flex;
 }
 
-.Head h1 {
+header h1 {
   margin: 0px;
+  padding: 0px;
   font-size: calc(18px + 4vmin);
 }
 
@@ -28,23 +30,25 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(12px + 2vmin);
   margin-left: auto;
+  border-radius: 12px 12px 0px 0px;
+  padding: 0px;
+  background-color: var(--background);
 }
 
 nav a {
-  padding: 0px 2vw;
+  padding: 0px 1em;
+  font-size: 1.6em;
   color: var(--text-nav);
   text-decoration: none;
 }
 
 .RouteContainer {
-  margin: 2vmin 6vmin;
+  margin: 0 0 0.2em;
   background-color: var(--foreground);
   color: var(--text-nav);
   min-height: 80vh;
   padding: 2vmin;
-  border-radius: 24px;
 }
 
 .fade-enter {
@@ -71,9 +75,10 @@ nav a {
 /* Responsive conditions */
 @media only screen and (max-width: 1024px) {
   nav {
-    margin-left: 0px;
+    margin: 0px;
+    align-self: center;
   }
-  .Head {
+  header {
     flex-direction: column;
     text-align: center;
   }
