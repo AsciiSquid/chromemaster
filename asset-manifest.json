@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chromemaster/static/css/main.60eccd28.css",
+    "main.js": "/chromemaster/static/js/main.794e1f45.js",
+    "static/js/787.c1112931.chunk.js": "/chromemaster/static/js/787.c1112931.chunk.js",
+    "static/media/building.jpg": "/chromemaster/static/media/building.c6bfc7377eef56038977.jpg",
+    "static/media/teeth.jpg": "/chromemaster/static/media/teeth.ea357898f9e78d37dc8b.jpg",
+    "static/media/map.webp": "/chromemaster/static/media/map.c290b0eb347c93f94e2e.webp",
+    "index.html": "/chromemaster/index.html",
+    "main.60eccd28.css.map": "/chromemaster/static/css/main.60eccd28.css.map",
+    "main.794e1f45.js.map": "/chromemaster/static/js/main.794e1f45.js.map",
+    "787.c1112931.chunk.js.map": "/chromemaster/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60eccd28.css",
+    "static/js/main.794e1f45.js"
+  ]
+}
