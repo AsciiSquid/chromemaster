@@ -20,7 +20,7 @@ function Main() {
                     <Link to="/products">Products</Link>
                 </nav>
             </header>
-            <div className="RouteContainer">
+            {/* <div className="RouteContainer">
                 <TransitionGroup component={null}>
                     <CSSTransition key={location.key} classNames="fade" timeout={300}>
                         <Routes location={location}>
@@ -30,6 +30,11 @@ function Main() {
                         </Routes>
                     </CSSTransition>
                 </TransitionGroup>
+            </div> */}
+            <div>
+                <Home></Home>
+                <About></About>
+                <Products></Products>
             </div>
             <footer>
                 Website by Dawson Wiebe
