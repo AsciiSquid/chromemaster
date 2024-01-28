@@ -1,9 +1,11 @@
 :root {
-  --background: #080808;
-  --foreground: #111111;
+  --background: #111331;
+  --background-container: #0a0b20;
+  --foreground: #ff0000;
   --text-header: #000000;
   --text-nav: #fafafa;
   --text-foot: #808080;
+  --text-body: #ffffff;
 }
 
 .Main {
@@ -11,19 +13,27 @@
   min-height: 100vh;
 }
 
+body {
+  color: var(--text-body);
+}
+
 header {
   margin: 0px;
   color: var(--text-header);
   background-color: var(--foreground);
-  background-image: url("./image/stock/building.jpg");
-  padding: 2vmin 1vmin 0 2vmin;
+  background-image: url("./image/img_out1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 1vmin 0 2vmin;
   display: flex;
+  min-height: 12vw;
 }
 
 header h1 {
   margin: 0px;
   padding: 0px;
-  font-size: calc(18px + 4vmin);
+  font-size: 3em;
+  text-shadow: 0 0 18px #ffffff;
 }
 
 nav {
@@ -52,8 +62,20 @@ nav a {
   padding: 2vmin;
 }
 
+.container {
+  margin: 1vw;
+}
+
+.container p {
+  margin: 0 1vw;
+  padding: 1vw;
+  background-color: var(--background-container);
+  border-radius: 6px;
+}
+
 footer {
   text-align: center;
+  font-size: 0.8em;
   color: var(--text-foot);
 }
 
