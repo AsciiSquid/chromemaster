@@ -6,6 +6,7 @@
   --text-nav: #fafafa;
   --text-foot: #808080;
   --text-body: #ffffff;
+  --fontsize-main: 1.2em;
 }
 
 .Main {
@@ -71,6 +72,60 @@ nav a {
   padding: 1vw;
   background-color: var(--background-container);
   border-radius: 6px;
+  font-size: var(--fontsize-main);
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+}
+
+.contact-container {
+  float: right;
+  background-color: var(--background-container);
+  border-radius: 6px;
+  min-width: 40vw;
+  padding: 1vw;
+  display: grid;
+}
+
+.contact-container h2 {
+  grid-column-start: 1;
+}
+
+.contact-list {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-right: 1vw;
+}
+
+.contact-list li {
+  list-style: none;
+}
+
+.contact-map {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 20vw;
+  min-height: 20vw;
+}
+
+#google-maps-canvas {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+#google-maps-canvas iframe {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 footer {

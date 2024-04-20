@@ -12,9 +12,9 @@ function Main() {
                 <h1></h1>
             </header>
             <div className="container">
+                <Products></Products>
                 <Home></Home>
                 <About></About>
-                <Products></Products>
             </div>
             <footer>
                 Website by Dawson Wiebe
