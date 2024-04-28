@@ -81,6 +81,7 @@ nav a {
 
 .about {
   display: flex;
+  padding-top: 1%;
 }
 
 .contact-container {
