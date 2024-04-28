@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/chromemaster/static/css/main.60eccd28.css",
-    "main.js": "/chromemaster/static/js/main.794e1f45.js",
-    "static/js/787.c1112931.chunk.js": "/chromemaster/static/js/787.c1112931.chunk.js",
-    "static/media/building.jpg": "/chromemaster/static/media/building.c6bfc7377eef56038977.jpg",
-    "static/media/teeth.jpg": "/chromemaster/static/media/teeth.ea357898f9e78d37dc8b.jpg",
-    "static/media/map.webp": "/chromemaster/static/media/map.c290b0eb347c93f94e2e.webp",
+    "main.css": "/chromemaster/static/css/main.8374f936.css",
+    "main.js": "/chromemaster/static/js/main.8a0f522e.js",
+    "static/js/453.a6a97343.chunk.js": "/chromemaster/static/js/453.a6a97343.chunk.js",
+    "static/media/img_in6.jpg": "/chromemaster/static/media/img_in6.0089389375f586585643.jpg",
+    "static/media/img_out3.jpg": "/chromemaster/static/media/img_out3.e4fa63a4cb64ad3ed3b0.jpg",
+    "static/media/img_out1.jpg": "/chromemaster/static/media/img_out1.2776bf449b9b35925d42.jpg",
+    "static/media/img_in5.jpg": "/chromemaster/static/media/img_in5.5e7eeac02c6568901d58.jpg",
+    "static/media/img_out2.jpg": "/chromemaster/static/media/img_out2.1fa77b220d2abe809a5b.jpg",
+    "static/media/img_in3.jpg": "/chromemaster/static/media/img_in3.6fc6dc81665de4d7d43e.jpg",
+    "static/media/img_in4.jpg": "/chromemaster/static/media/img_in4.218c6b4ed0e116c463ad.jpg",
+    "static/media/img_in2.jpg": "/chromemaster/static/media/img_in2.4445f3117fc58678eca0.jpg",
+    "static/media/img_in1.jpg": "/chromemaster/static/media/img_in1.f3afbf4f9f9b547a1b6b.jpg",
+    "static/media/form.pdf": "/chromemaster/static/media/form.453bc2df697f5203e9b5.pdf",
     "index.html": "/chromemaster/index.html",
-    "main.60eccd28.css.map": "/chromemaster/static/css/main.60eccd28.css.map",
-    "main.794e1f45.js.map": "/chromemaster/static/js/main.794e1f45.js.map",
-    "787.c1112931.chunk.js.map": "/chromemaster/static/js/787.c1112931.chunk.js.map"
+    "main.8374f936.css.map": "/chromemaster/static/css/main.8374f936.css.map",
+    "main.8a0f522e.js.map": "/chromemaster/static/js/main.8a0f522e.js.map",
+    "453.a6a97343.chunk.js.map": "/chromemaster/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60eccd28.css",
-    "static/js/main.794e1f45.js"
+    "static/css/main.8374f936.css",
+    "static/js/main.8a0f522e.js"
   ]
 }
