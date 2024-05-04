@@ -18,14 +18,14 @@ const images = [
     },    
     {
         src: img_out2,
-        width: 400,
-        height: 225
+        width: 300,
+        height: 400
 
     },
     {
         src: img_in1,
-        width: 400,
-        height: 185
+        width: 300,
+        height: 400
     },
     {
         src: img_in6,
@@ -39,8 +39,8 @@ const images = [
     },
     {
         src: img_in2,
-        width: 400,
-        height: 185
+        width: 300,
+        height: 400
     },
     {
         src: img_out3,
