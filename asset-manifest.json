@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/chromemaster/static/css/main.8374f936.css",
-    "main.js": "/chromemaster/static/js/main.00608072.js",
-    "static/js/453.a6a97343.chunk.js": "/chromemaster/static/js/453.a6a97343.chunk.js",
-    "static/media/img_in6.jpg": "/chromemaster/static/media/img_in6.0089389375f586585643.jpg",
-    "static/media/img_out2.jpg": "/chromemaster/static/media/img_out2.658347dd4cbe2fa2c53a.jpg",
-    "static/media/img_in1.jpg": "/chromemaster/static/media/img_in1.6c7aab54a2862495b189.jpg",
-    "static/media/img_out3.jpg": "/chromemaster/static/media/img_out3.e4fa63a4cb64ad3ed3b0.jpg",
-    "static/media/img_out1.jpg": "/chromemaster/static/media/img_out1.2776bf449b9b35925d42.jpg",
-    "static/media/img_in5.jpg": "/chromemaster/static/media/img_in5.5e7eeac02c6568901d58.jpg",
-    "static/media/img_in2.jpg": "/chromemaster/static/media/img_in2.5e17c2b28c14ef094f96.jpg",
-    "static/media/img_in3.jpg": "/chromemaster/static/media/img_in3.bdc338c8de92d906913a.jpg",
-    "static/media/img_in4.jpg": "/chromemaster/static/media/img_in4.201b7d03fb9357788b8c.jpg",
-    "static/media/form.pdf": "/chromemaster/static/media/form.453bc2df697f5203e9b5.pdf",
-    "index.html": "/chromemaster/index.html",
-    "main.8374f936.css.map": "/chromemaster/static/css/main.8374f936.css.map",
-    "main.00608072.js.map": "/chromemaster/static/js/main.00608072.js.map",
-    "453.a6a97343.chunk.js.map": "/chromemaster/static/js/453.a6a97343.chunk.js.map"
+    "main.css": "/static/css/main.57c6f438.css",
+    "main.js": "/static/js/main.f572681c.js",
+    "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
+    "static/media/img_in6.jpg": "/static/media/img_in6.0089389375f586585643.jpg",
+    "static/media/img_out2.jpg": "/static/media/img_out2.658347dd4cbe2fa2c53a.jpg",
+    "static/media/img_in1.jpg": "/static/media/img_in1.6c7aab54a2862495b189.jpg",
+    "static/media/img_out3.jpg": "/static/media/img_out3.e4fa63a4cb64ad3ed3b0.jpg",
+    "static/media/img_out1.jpg": "/static/media/img_out1.2776bf449b9b35925d42.jpg",
+    "static/media/img_in5.jpg": "/static/media/img_in5.5e7eeac02c6568901d58.jpg",
+    "static/media/img_in2.jpg": "/static/media/img_in2.5e17c2b28c14ef094f96.jpg",
+    "static/media/img_in3.jpg": "/static/media/img_in3.bdc338c8de92d906913a.jpg",
+    "static/media/img_in4.jpg": "/static/media/img_in4.201b7d03fb9357788b8c.jpg",
+    "static/media/form.pdf": "/static/media/form.453bc2df697f5203e9b5.pdf",
+    "index.html": "/index.html",
+    "main.57c6f438.css.map": "/static/css/main.57c6f438.css.map",
+    "main.f572681c.js.map": "/static/js/main.f572681c.js.map",
+    "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8374f936.css",
-    "static/js/main.00608072.js"
+    "static/css/main.57c6f438.css",
+    "static/js/main.f572681c.js"
   ]
 }
