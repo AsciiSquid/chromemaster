@@ -8,6 +8,7 @@ import img_in6 from '../image/img_in6.jpg';
 import img_out1 from '../image/img_out1.jpg';
 import img_out2 from '../image/img_out2.jpg';
 import img_out3 from '../image/img_out3.jpg';
+import { useEffect, useState } from "react";
 
 const images = [
     {
@@ -51,9 +52,19 @@ const images = [
 ]
 
 function Products() {
+    const [isMobile, setGallery] = useState(window.innerWidth < 1080);
+
+    const updateGallery = ()=> {
+        setGallery(window.innerWidth < 1080);
+    };
+
+    useEffect(()=>{
+        window.addEventListener("resize", updateGallery);
+    });
+
     return (
-        <Gallery images={images} enableImageSelection={false} maxRows={1}/>
-    )
-}
+        <Gallery images={images} enableImageSelection={false} maxRows={isMobile ? 2 : 1}/>
+    );
+};
 
 export default Products;
