@@ -9,7 +9,6 @@ function Main() {
     return (
         <div className="Main">
             <header>
-                <h1></h1>
             </header>
             <div className="container">
                 <Products></Products>
